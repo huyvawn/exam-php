@@ -23,7 +23,7 @@ $contacts = select($sql);
                     <tbody>
                         <?php foreach($contacts as $item):?>
                             <tr>
-                                <td><?php echo $item["id"];?></td>
+                                <td class="counterCell"></td>
                                 <td><?php echo $item["name"];?></td>
                                 <td><?php echo $item["phone_number"];?></td>
                                 <td>

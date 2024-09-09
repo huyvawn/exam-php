@@ -12,7 +12,7 @@ $contact=findById($sql);
     <div class="container">
     <h3 class='text-center mb-4' >Update Contact </h3>
     <form action="/save_update_contact.php" method="post">
-    <div class="mb-3">
+    <div class="mb-3 d-none">
     <label> Id</label>
     <input readonly type="text" class="form-control" name="id" required value="<?php echo $contact["id"];?>">
   </div>
