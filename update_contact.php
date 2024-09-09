@@ -14,15 +14,15 @@ $contact=findById($sql);
     <form action="/save_update_contact.php" method="post">
     <div class="mb-3">
     <label> Id</label>
-    <input readonly type="text" class="form-control" name="id" require="required" value="<?php echo $contact["id"];?>">
+    <input readonly type="text" class="form-control" name="id" required value="<?php echo $contact["id"];?>">
   </div>
   <div class="mb-3">
     <label> Name</label>
-    <input type="text" class="form-control" name="name" require="required" value="<?php echo $contact["name"];?>">
+    <input type="text" class="form-control" name="name" required value="<?php echo $contact["name"];?>">
   </div>
   <div class="mb-3">
     <label  class="form-label">Phone Number</label>
-    <input type="text" class="form-control" name="phone" require="required" value="<?php echo $contact["phone_number"];?>">
+    <input type="text" class="form-control" name="phone" required value="<?php echo $contact["phone_number"];?>">
   </div>
   
   <button type="submit" class="btn btn-primary">Submit</button>
