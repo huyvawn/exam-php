@@ -1,7 +1,6 @@
 <?php
 require_once("functions/db.php"); 
 $id=$_POST["id"];
-var_dump($id); die("");
 $name=$_POST["name"];
 $phone=$_POST["phone"];
 $sql= "UPDATE contacts
